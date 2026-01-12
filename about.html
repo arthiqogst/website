@@ -3,14 +3,18 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='50' fill='%230b66d1'/%3E%3Ctext x='50' y='63' font-size='54' text-anchor='middle' fill='white' font-family='Arial' font-weight='700'%3EA%3C/text%3E%3C/svg%3E" />
   <title>About — Arthiqo</title>
+  <meta name="description" content="Arthiqo provides GST, tax and accounting services in India with an automation-first approach to compliance and reporting." />
+  <meta name="keywords" content="GST services, accounting services, tax filing, bookkeeping, Tally, Zoho, Excel automation" />
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
   <header class="site-header">
     <div class="container header-inner">
       <a class="brand" href="index.html">Arthiqo</a>
-      <nav class="nav">
+      <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav">Menu</button>
+      <nav id="main-nav" class="nav" role="navigation">
         <a href="services.html">Services</a>
         <a href="about.html">About</a>
         <a href="blog.html">Blog</a>
@@ -30,7 +34,12 @@
 
     <section class="card">
       <h3>Trust & Expertise</h3>
-      <p>Our team follows professional standards, data confidentiality practices and timely communication to build long-term client relationships.</p>
+      <p>Our team follows professional standards, strict data confidentiality practices and timely communication to build long-term client relationships. We focus on compliance accuracy and practical advice rather than assurance or audit certification.</p>
+    </section>
+
+    <section class="card">
+      <h3>Our Team & Tools</h3>
+      <p>Experienced tax and accounting professionals supported by Excel automation, Tally and Zoho expertise to deliver reliable outputs and clear reports.</p>
     </section>
 
     <div class="center"><a href="contact.html" class="btn">Get in Touch</a></div>
@@ -38,6 +47,7 @@
 
   <footer class="site-footer">
     <div class="container footer-inner"><div>© 2026 Arthiqo</div></div>
+    <div class="container small"><em class="disclaimer">Arthiqo provides compliance and advisory support and is not affiliated with any government authority. Audit certification services are not provided.</em></div>
   </footer>
 
   <script src="assets/js/main.js"></script>
