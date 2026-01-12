@@ -3,14 +3,18 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='50' fill='%230b66d1'/%3E%3Ctext x='50' y='63' font-size='54' text-anchor='middle' fill='white' font-family='Arial' font-weight='700'%3EA%3C/text%3E%3C/svg%3E" />
   <title>Services — Arthiqo</title>
+  <meta name="description" content="Comprehensive GST, accounting, tax and automation services including GST returns, reconciliations, audits support, ITR filing and Tally/Zoho services." />
+  <meta name="keywords" content="GST registration, GSTR-3B, GSTR-1, GSTR-9, GST reconciliation, ITC, GST audit support, ITR filing, TDS compliance, Tally services" />
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
   <header class="site-header">
     <div class="container header-inner">
       <a class="brand" href="index.html">Arthiqo</a>
-      <nav class="nav">
+      <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav">Menu</button>
+      <nav id="main-nav" class="nav" role="navigation">
         <a href="services.html">Services</a>
         <a href="about.html">About</a>
         <a href="blog.html">Blog</a>
@@ -25,53 +29,73 @@
 
     <section class="services-list grid">
       <div class="service-detail card">
-        <h3>GST Registration & Returns Filing</h3>
-        <p>GSTR-1, GSTR-3B, annual returns, amendments and ongoing compliance support.</p>
+        <h3>GST Registration</h3>
+        <p>New registration, amendments and cancellation support, ensuring correct classifications and registrations on the GST portal.</p>
       </div>
 
       <div class="service-detail card">
-        <h3>GST Reconciliation & ITC Management</h3>
-        <p>GSTR-2B matching, mismatch resolution and ITC reporting.</p>
+        <h3>GST Returns Filing</h3>
+        <p>GSTR-1, GSTR-3B, CMP-08, GSTR-9 / 9C support with on-time filing and reconciliation assistance.</p>
       </div>
 
       <div class="service-detail card">
-        <h3>Income Tax Return Filing</h3>
-        <p>ITR filing services for individuals, professionals, firms and companies with advisory support.</p>
+        <h3>GSTR-2B Reconciliation</h3>
+        <p>ITC matching with books, mismatch resolution and reporting to optimize credit claims.</p>
+      </div>
+
+      <div class="service-detail card">
+        <h3>RCM Compliance</h3>
+        <p>Identification of Reverse Charge liabilities, accounting entries and accurate return reporting.</p>
+      </div>
+
+      <div class="service-detail card">
+        <h3>GST Audit Support</h3>
+        <p>Data preparation and reconciliation support to assist audits (note: audit certification services are not offered).</p>
+      </div>
+
+      <div class="service-detail card">
+        <h3>GST Notice Handling</h3>
+        <p>Reply drafting, data collation and portal submissions for notices and show-cause communications.</p>
       </div>
 
       <div class="service-detail card">
         <h3>Accounting & Bookkeeping</h3>
-        <p>Daily bookkeeping, bank reconciliation and MIS reporting using Tally & Zoho Books.</p>
+        <p>Day-to-day accounting, bank reconciliation and internal controls to maintain accurate ledgers.</p>
       </div>
 
       <div class="service-detail card">
-        <h3>TDS & Statutory Compliance</h3>
-        <p>TDS returns, challans, Form 16/16A, PF, ESI and professional tax compliance.</p>
+        <h3>MIS & Financial Reporting</h3>
+        <p>Monthly P&L, balance sheet and cash flow reports to support management decisions.</p>
       </div>
 
       <div class="service-detail card">
-        <h3>Payroll Management</h3>
-        <p>Salary processing, payslips, statutory deductions and payroll compliance.</p>
+        <h3>Accounts Finalization Support</h3>
+        <p>Pre-audit checks and year-end accounting assistance for clean financial close.</p>
       </div>
 
       <div class="service-detail card">
-        <h3>E-Invoice & E-Way Bills</h3>
-        <p>GST-compliant e-invoice and e-way bill generation for smooth logistics and compliance.</p>
+        <h3>Expense & Cost Analysis</h3>
+        <p>Category-wise and project-wise expense breakdowns and cost optimization insights.</p>
       </div>
 
       <div class="service-detail card">
-        <h3>Excel Automation & MIS Reports</h3>
-        <p>Custom Excel automation, dashboards and reconciliation tools for faster reporting.</p>
+        <h3>Income Tax & TDS Compliance</h3>
+        <p>Income tax return filing, TDS deduction and returns, Form 16/16A and advance tax computation support.</p>
       </div>
 
       <div class="service-detail card">
-        <h3>MSME & Business Registrations</h3>
-        <p>Udyam registration, PAN, TAN and business setup support.</p>
+        <h3>MSME (Udyam) Registration</h3>
+        <p>Udyam registration assistance to help access government support and benefits where applicable.</p>
       </div>
 
       <div class="service-detail card">
-        <h3>ERP & Accounting Software Support</h3>
-        <p>Tally & Zoho Books setup, customization, migration and training.</p>
+        <h3>Automation & Software Services</h3>
+        <p>Excel automation, MIS dashboards, Tally & Zoho setup, migration and process automation templates.</p>
+      </div>
+
+      <div class="service-detail card">
+        <h3>Other Services</h3>
+        <p>E-invoice & e-way bill generation, data cleanup & migration, internal controls and virtual accounts support.</p>
       </div>
     </section>
 
@@ -80,6 +104,7 @@
 
   <footer class="site-footer">
     <div class="container footer-inner"><div>© 2026 Arthiqo</div></div>
+    <div class="container small"><em class="disclaimer">Arthiqo provides compliance and advisory support and is not affiliated with any government authority. Audit certification services are not provided.</em></div>
   </footer>
 
   <script src="assets/js/main.js"></script>
