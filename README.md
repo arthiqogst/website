@@ -19,6 +19,7 @@ Notes
 
 - Colors: finance-friendly blue/grey palette.
 - Mobile-friendly layout and minimal animations.
+- Graphical assets: `assets/images/logo.svg` (wordmark) and inline SVG icons used for services.
 - Contact form uses client-side JS only; replace with your backend endpoint for production.
 
 Deployment
